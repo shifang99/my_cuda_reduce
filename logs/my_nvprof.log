@@ -1,0 +1,186 @@
+==83453== NVPROF is profiling process 83453, command: ./bin/reduce_v0
+==83453== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==83453== the ans is right
+Profiling application: ./bin/reduce_v0
+==83453== Profiling result:
+==83453== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce0(float*, float*)
+          1                   shared_ld_bank_conflict        5631        5631        5631        5631
+          1                   shared_st_bank_conflict      113609      113609      113609      113609
+
+==83453== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce0(float*, float*)
+          1                         shared_efficiency                      Shared Memory Efficiency      20.98%      20.98%      20.98%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.014276    1.014276    1.014276
+==83465== NVPROF is profiling process 83465, command: ./bin/reduce_v0a_wo_div
+==83465== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+the ans is right
+==83465== Profiling application: ./bin/reduce_v0a_wo_div
+==83465== Profiling result:
+==83465== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce0(float*, float*)
+          1                   shared_ld_bank_conflict        6769        6769        6769        6769
+          1                   shared_st_bank_conflict      222918      222918      222918      222918
+
+==83465== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce0(float*, float*)
+          1                         shared_efficiency                      Shared Memory Efficiency      20.74%      20.74%      20.74%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.024411    1.024411    1.024411
+==83476== NVPROF is profiling process 83476, command: ./bin/reduce_v1
+==83476== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+the ans is right
+==83476== Profiling application: ./bin/reduce_v1
+==83476== Profiling result:
+==83476== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce1(float*, float*)
+          1                   shared_ld_bank_conflict     9179569     9179569     9179569     9179569
+          1                   shared_st_bank_conflict     4710946     4710946     4710946     4710946
+
+==83476== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce1(float*, float*)
+          1                         shared_efficiency                      Shared Memory Efficiency      20.96%      20.96%      20.96%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    3.855911    3.855911    3.855911
+==83487== NVPROF is profiling process 83487, command: ./bin/reduce_v2
+==83487== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==83487== Profiling application: ./bin/reduce_v2
+the ans is right
+==83487== Profiling result:
+==83487== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce2(float*, float*)
+          1                   shared_ld_bank_conflict        6515        6515        6515        6515
+          1                   shared_st_bank_conflict      107197      107197      107197      107197
+
+==83487== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce2(float*, float*)
+          1                         shared_efficiency                      Shared Memory Efficiency      68.85%      68.85%      68.85%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.022948    1.022948    1.022948
+==83498== NVPROF is profiling process 83498, command: ./bin/reduce_v3
+==83498== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+the ans is right
+==83498== Profiling application: ./bin/reduce_v3
+==83498== Profiling result:
+==83498== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce3(float*, float*)
+          1                   shared_ld_bank_conflict        3062        3062        3062        3062
+          1                   shared_st_bank_conflict       86916       86916       86916       86916
+
+==83498== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce3(float*, float*)
+          1                         shared_efficiency                      Shared Memory Efficiency      68.23%      68.23%      68.23%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.019278    1.019278    1.019278
+==83509== NVPROF is profiling process 83509, command: ./bin/reduce_v4
+==83509== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==83509== the ans is right
+Profiling application: ./bin/reduce_v4
+==83509== Profiling result:
+==83509== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce4(float*, float*)
+          1                   shared_ld_bank_conflict        6125        6125        6125        6125
+          1                   shared_st_bank_conflict      112048      112048      112048      112048
+
+==83509== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: reduce4(float*, float*)
+          1                         shared_efficiency                      Shared Memory Efficiency      93.10%      93.10%      93.10%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.023082    1.023082    1.023082
+==83520== NVPROF is profiling process 83520, command: ./bin/reduce_v5
+==83520== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+the ans is right
+==83520== Profiling application: ./bin/reduce_v5
+==83520== Profiling result:
+==83520== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce5<unsigned int=256>(float*, float*)
+          1                   shared_ld_bank_conflict        6307        6307        6307        6307
+          1                   shared_st_bank_conflict      112285      112285      112285      112285
+
+==83520== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce5<unsigned int=256>(float*, float*)
+          1                         shared_efficiency                      Shared Memory Efficiency      93.00%      93.00%      93.00%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.024326    1.024326    1.024326
+==83531== NVPROF is profiling process 83531, command: ./bin/reduce_v6
+==83531== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+the ans is right
+==83531== Profiling application: ./bin/reduce_v6
+==83531== Profiling result:
+==83531== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce6<unsigned int=256, int=128>(float*, float*, unsigned int)
+          1                   shared_ld_bank_conflict           6           6           6           6
+          1                   shared_st_bank_conflict        2416        2416        2416        2416
+
+==83531== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce6<unsigned int=256, int=128>(float*, float*, unsigned int)
+          1                         shared_efficiency                      Shared Memory Efficiency      92.99%      92.99%      92.99%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.000273    1.000273    1.000273
+==83542== NVPROF is profiling process 83542, command: ./bin/reduce_v7
+==83542== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+==83542== the ans is right
+Profiling application: ./bin/reduce_v7
+==83542== Profiling result:
+==83542== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce7<unsigned int=256, int=128>(float*, float*, unsigned int)
+          1                   shared_ld_bank_conflict           0           0           0           0
+          1                   shared_st_bank_conflict         243         243         243         243
+
+==83542== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce7<unsigned int=256, int=128>(float*, float*, unsigned int)
+          1                         shared_efficiency                      Shared Memory Efficiency       5.42%       5.42%       5.42%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.000977    1.000977    1.000977
+==83553== NVPROF is profiling process 83553, command: ./bin/reduce_v8
+==83553== Some kernel(s) will be replayed on device 0 in order to collect all events/metrics.
+the ans is right
+==83553== Profiling application: ./bin/reduce_v8
+==83553== Profiling result:
+==83553== Event result:
+Invocations                                Event Name         Min         Max         Avg       Total
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce8<unsigned int=256, int=128>(float*, float*, unsigned int)
+          1                   shared_ld_bank_conflict           0           0           0           0
+          1                   shared_st_bank_conflict         183         183         183         183
+
+==83553== Metric result:
+Invocations                               Metric Name                            Metric Description         Min         Max         Avg
+Device "Tesla V100-SXM2-32GB (0)"
+    Kernel: void reduce8<unsigned int=256, int=128>(float*, float*, unsigned int)
+          1                         shared_efficiency                      Shared Memory Efficiency       5.44%       5.44%       5.44%
+          1      shared_load_transactions_per_request   Shared Memory Load Transactions Per Request    1.000000    1.000000    1.000000
+==83565== NVPROF is profiling process 83565, command: python reduce_v9_torch.py
+Missing definition of the OpenACC API routine/s in the OpenACC library linked to the application. To work around this issue either force the inclusion of all the OpenACC symbols in the binary or link the OpenACC library dynamically.
+==83565== Profiling application: python reduce_v9_torch.py
+==83565== Profiling result:
+No events/metrics were profiled.
+======== Error: Application returned non-zero code 12
